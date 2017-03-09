@@ -91,6 +91,8 @@ We then use `sklearn.preprocessing.StandardScaler()` to standardize our feature 
 
 Finally, we can train the SVM and we gain a test accuracy of 98.5%. The classifier and the scaler are saved to pickle files (`svc.p` and `X_scaler.p`) for reuse.
 
+As discussed in the previous sections, features were chosen according to their impact on the test accuracy.
+
 
 ### Sliding Window Search
 To use the classifier on the whole image, we use a sliding window technique (code cell 'Vehicle detection'). First, we restrict the area of search to `y=[400:656]` since we know cars have to be on the ground. For further optimization the HOG features are calculated once for the whole area, so we can reuse parts of it, when we slide the window. Features are extracted as discussed previous sections with every window slide. We apply different window sizes to check for cars of different distance and repeat the feature extraction.
