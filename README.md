@@ -124,7 +124,9 @@ Bounding boxes       |  Heatmap            | Lables
 ![alt text][image14] |![alt text][image20] |![alt text][image26]
 
 
-Here's a [link to my video result](./vehicle_detection.mp4)
+
+![alt text](./output_images/vehicle_detection.gif)  
+Here's a [link to this video](./vehicle_detection.mp4)
 
 ### Summary: Pipeline
 
