@@ -19,6 +19,8 @@ This project contains the following files:
 - project_video.mp4 as input
 - vehicle_detection.mp4 as output
 
+![alt text](./output_images/vehicle_detection.gif)  
+
 [//]: # (Image References)
 [image1]: ./output_images/vehicle_images.png
 [image2]: ./output_images/non_vehicle_images.png
@@ -124,8 +126,6 @@ Bounding boxes       |  Heatmap            | Lables
 ![alt text][image14] |![alt text][image20] |![alt text][image26]
 
 
-
-![alt text](./output_images/vehicle_detection.gif)  
 Here's a [link to this video](./vehicle_detection.mp4)
 
 ### Summary: Pipeline
